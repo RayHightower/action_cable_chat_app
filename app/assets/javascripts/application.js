@@ -14,31 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-alert('Hello, Universe!');
-
-
-$(document).on('turbolinks:load',
-               function() {
-                 $('#messages-table').append("Where will this message appear?");
-               });
-               // It appears that this message posting is idempotent. It works!
-               // It's idempotent even when we stop and start the web server.
-               // How does it keep track of individual messages? UUID?
-
-message_appender = function(content) {
-  $('#messages-table').append(content);
-}
-
-message_replacer = function(content) {
-  $('.messages').append(content);
-}
-
-$(document).on('turbolinks:load', function() {
-  message_replacer('How?');
-});
-
-
-$(document).on('turbolinks:load', function() {
-  message_appender('This one was added within the message_appender function.');
-});
