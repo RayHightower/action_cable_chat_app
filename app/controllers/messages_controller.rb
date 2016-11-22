@@ -10,8 +10,8 @@ class MessagesController < ApplicationController
     if message.save
       ActionCable.server.broadcast 'room_channel',
         content: message.content,
-        username: message.user.username,
-        head: ok
+        username: message.user.username
+        head :ok
     end
   end
 
