@@ -17,9 +17,9 @@
 
 alert('Hello, Universe!');
 
-greeting_doubler("The phrase so nice we said it twice.");
 greeting_doubler = function(phrase) {
   alert(phrase + " " + phrase);
 };
 
+greeting_doubler("The phrase so nice we said it twice.");
 alert("Is there an echo in here?");
