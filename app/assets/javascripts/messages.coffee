@@ -6,4 +6,4 @@ message_appender = (content) ->
   $('#messages-table').append(content)
 
 $(document).on 'turbolinks:load', ->
-  message_appender('Are we still replacing lines?')
+  message_appender 'What happens when we remove the parentheses?'
