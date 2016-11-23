@@ -28,7 +28,7 @@ c:0059 p:0016 s:0228 e:000227 METHOD /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems
 c:0058 p:0008 s:0225 e:000224 BLOCK  /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:591
 c:0057 p:0025 s:0223 e:000222 METHOD /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:822
 c:0056 p:0020 s:0219 e:000218 METHOD /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:596
-c:0055 p:0025 s:0213 E:001ff0 METHOD /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:591
+c:0055 p:0025 s:0213 E:000c80 METHOD /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:591
 c:0054 p:0126 s:0210 e:000209 TOP    /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems/railties-5.0.0.1/lib/rails/test_help.rb:15 [FINISH]
 c:0053 p:---- s:0208 e:000207 CFUNC  :require
 c:0052 p:0012 s:0204 e:000203 BLOCK  /Users/rth/.rvm/gems/ruby-2.3.2@rails5/gems/activesupport-5.0.0.1/lib/active_support/dependencies.rb:293
@@ -159,11 +159,11 @@ c:0001 p:0000 s:0002 E:002440 (none) [FINISH]
 
 -- Machine register context ------------------------------------------------
  rax: 0x0000000000000100 rbx: 0x00007fffcd8a4430 rcx: 0x0000000000000000
- rdx: 0x0000000000000000 rdi: 0x00007fffcd9071c0 rsi: 0x00007fd8ae27b230
+ rdx: 0x0000000000000000 rdi: 0x00007fffcd9071c0 rsi: 0x00007fd8ae55b910
  rbp: 0x00007fff56025de0 rsp: 0x00007fff56025d98  r8: 0x00000000a40008ff
   r9: 0x00000000ffffffff r10: 0x0000000100000000 r11: 0x0000000000000000
- r12: 0x00007fffcd8a26d0 r13: 0x0000000000000000 r14: 0x00007fd8a7444790
- r15: 0x00007fd8a7444958 rip: 0x00007fffc4bf8943 rfl: 0x0000000000010206
+ r12: 0x00007fffcd8a26d0 r13: 0x0000000000000000 r14: 0x00007fd8a8828990
+ r15: 0x00007fd8a8828b58 rip: 0x00007fffc4bf8943 rfl: 0x0000000000010206
 
 -- C level backtrace information -------------------------------------------
 0   libruby.2.3.0.dylib                 0x0000000109d83c14 rb_vm_bugreport + 388
